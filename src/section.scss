@@ -1,0 +1,18 @@
+.section-presentes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    p {
+        text-align: center;
+    }
+}
+
+.section-img {
+    width: 200px;
+
+    &--active {
+        width: 350px;
+    }
+}
