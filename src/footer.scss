@@ -4,10 +4,12 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
+    background-color: #e2d7e3;
 }
 
 .footer-address {
+    align-items: center;
 
     h2 {
         font-family: variaveis.$colortext;
@@ -30,8 +32,15 @@
         gap: 40px;
         padding-top: 12px;
     }
+
+    h2 {
+        font-family: variaveis.$colortext;
+        font-size: 16px;
+        font-weight: 400;
+    }
 }
 
 svg {
     color: #000;
+
 }

@@ -1,3 +1,5 @@
+@use 'variaveis';
+
 .section-presentes {
     display: flex;
     align-items: center;
@@ -6,6 +8,8 @@
 
     p {
         text-align: center;
+        font-family: variaveis.$colortext2;
+        
     }
 }
 
